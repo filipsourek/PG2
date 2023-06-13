@@ -42,6 +42,7 @@ namespace pg2Project
         {
             base.OnLoad();
             _gameTime.Start();
+            CursorState = CursorState.Grabbed;
 
             // Initialize OpenGL here
             GL.Enable(EnableCap.DepthTest);
