@@ -44,6 +44,7 @@ namespace pg2Project
             _gameTime.Start();
 
             // Initialize OpenGL here
+            GL.Enable(EnableCap.DepthTest);
             GL.Enable(EnableCap.DebugOutput);
 
             //SHADERS
